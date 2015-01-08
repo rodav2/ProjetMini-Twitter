@@ -1,0 +1,195 @@
+
+
+body {
+	background-color: #336692;
+}
+
+header{
+	/*text-align: left;*/
+	/*margin-left: 90px;*/
+	/*border: 2px black solid;*/
+	background-color: silver;
+	width: 100%;
+					/*margin-left: -7px;*/
+	/*border-radius: 10px; */ /*arrondi les angles*/ 
+	/*padding: 10px;*/ /*epaisseur du bandeau*/
+	/*top: 30px;*/
+	position: relative;
+	/*display: inline-block;*/
+}
+
+.connexion{
+	background-color: silver;
+	/*text-align: center;*/
+	margin-left: 30%;
+	border: 2px gray dashed;
+	border-radius: 10px;
+	padding: 10px;
+	position: absolute;
+	top : 20%;
+}
+
+.inscription{
+	background-color: silver;
+	/*text-align: center;*/
+	margin-left: 30%;
+	border: 2px gray dashed;
+	border-radius: 10px;
+	padding: 10px;
+	position: absolute;
+	top : 20%;
+}
+
+.ZoneMessage{
+	resize: none; 
+	overflow: auto;
+}
+
+.MessageEnvoye{
+	margin-left: 35%;
+	top: 35%;
+	position: absolute;
+	text-align: center;
+	border: 1px black solid;
+	background-color: silver;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+.MessageAbonne{
+	margin-left: 35%;
+	top: 10%;
+	position: absolute;
+	text-align: center;
+	border: 1px black solid;
+	background-color: silver;
+	border-radius: 10px;
+	padding: 10px;	
+}
+
+.UtilisateurASuivre{
+	margin-left: 65%;
+	top: 35%;
+	position: absolute;
+	text-align: center;
+	border: 1px black solid;
+	background-color: silver;
+	border-radius: 10px;
+	padding: 10px;		
+}
+
+.UtilisateurSuivi{
+	margin-left: 65%;
+	top: 55%;
+	position: absolute;
+	text-align: center;
+	border: 1px black solid;
+	background-color: silver;
+	border-radius: 10px;
+	padding: 10px;		
+}
+
+.bouton { 
+border-top: 1px solid silver; /*pour ajouter une bordure en haut */
+background: #279B8C; /*pour changer l’arrière plan */
+padding: 6px 12px; /*pour ajouter un espace intérieur dans le bouton */
+-webkit-border-radius: 2px; /*pour créer des bordures rondus (navigateur : Google Chrome et d’autres) */
+-moz-border-radius: 2px; /*pour créer des bordures rondus (navigateur : FireFox et d’autres) */
+border-radius: 8px; /*pour créer des bordures rondus (navigateur : La plupart) */
+-webkit-box-shadow: rgba(0,0,0,1) 0 1px 0; /*pour ajouter une ombre en dessous du bouton (navigateur : Google Chrome et d’autres) */
+-moz-box-shadow: rgba(0,0,0,1) 0 1px 0; /* pour ajouter une ombre en dessous du bouton (navigateur : Google Chrome et d’autres) */
+box-shadow: rgba(133,142,141,1) 0 2px 0; /* pour ajouter une ombre en dessous du bouton */
+text-shadow: rgba(0,0,0,.4) 0 1px 0; /* pour ajouter une ombre en dessous du bouton */
+color: white; /* la couleur */
+font-size: 12px; /* la taille du font */
+font-family: Georgia, serif; /* pour définir la police */
+text-decoration: none; /* pour enlever le souligné */
+vertical-align: middle; /* pour centrer le texte */
+background-image:radial-gradient(gray, black);/* Degrader */
+/*background-image:linear-gradient(white, black); /* Degrader haut/bas*/
+} 
+
+.boutonDeconnexion { 
+border-top: 1px solid silver; /*pour ajouter une bordure en haut */
+background: #279B8C; /*pour changer l’arrière plan */
+padding: 6px 12px; /*pour ajouter un espace intérieur dans le bouton */
+-webkit-border-radius: 2px; /*pour créer des bordures rondus (navigateur : Google Chrome et d’autres) */
+-moz-border-radius: 2px; /*pour créer des bordures rondus (navigateur : FireFox et d’autres) */
+border-radius: 8px; /*pour créer des bordures rondus (navigateur : La plupart) */
+-webkit-box-shadow: rgba(0,0,0,1) 0 1px 0; /*pour ajouter une ombre en dessous du bouton (navigateur : Google Chrome et d’autres) */
+-moz-box-shadow: rgba(0,0,0,1) 0 1px 0; /* pour ajouter une ombre en dessous du bouton (navigateur : Google Chrome et d’autres) */
+box-shadow: rgba(133,142,141,1) 0 2px 0; /* pour ajouter une ombre en dessous du bouton */
+text-shadow: rgba(0,0,0,.4) 0 1px 0; /* pour ajouter une ombre en dessous du bouton */
+color: white; /* la couleur */
+font-size: 12px; /* la taille du font */
+font-family: Georgia, serif; /* pour définir la police */
+text-decoration: none; /* pour enlever le souligné */
+vertical-align: middle; /* pour centrer le texte */
+background-image:radial-gradient(gray, black);/* Degrader */
+/*background-image:linear-gradient(white, black); /* Degrader haut/bas*/
+ 
+margin-left: 130%;
+}
+
+.boutonSuivre{ 
+border-top: 1px solid silver; /*pour ajouter une bordure en haut */
+background: #279B8C; /*pour changer l’arrière plan */
+padding: 6px 12px; /*pour ajouter un espace intérieur dans le bouton */
+-webkit-border-radius: 2px; /*pour créer des bordures rondus (navigateur : Google Chrome et d’autres) */
+-moz-border-radius: 2px; /*pour créer des bordures rondus (navigateur : FireFox et d’autres) */
+border-radius: 8px; /*pour créer des bordures rondus (navigateur : La plupart) */
+-webkit-box-shadow: rgba(0,0,0,1) 0 1px 0; /*pour ajouter une ombre en dessous du bouton (navigateur : Google Chrome et d’autres) */
+-moz-box-shadow: rgba(0,0,0,1) 0 1px 0; /* pour ajouter une ombre en dessous du bouton (navigateur : Google Chrome et d’autres) */
+box-shadow: rgba(133,142,141,1) 0 2px 0; /* pour ajouter une ombre en dessous du bouton */
+text-shadow: rgba(0,0,0,.4) 0 1px 0; /* pour ajouter une ombre en dessous du bouton */
+color: white; /* la couleur */
+font-size: 12px; /* la taille du font */
+font-family: Georgia, serif; /* pour définir la police */
+text-decoration: none; /* pour enlever le souligné */
+vertical-align: middle; /* pour centrer le texte */
+background-image:radial-gradient(gray, black);/* Degrader */
+/*background-image:linear-gradient(white, black); /* Degrader haut/bas*/
+ 
+margin-left: 35%;
+}
+
+.boutonDesabonner{ 
+border-top: 1px solid silver; /*pour ajouter une bordure en haut */
+background: #279B8C; /*pour changer l’arrière plan */
+padding: 6px 12px; /*pour ajouter un espace intérieur dans le bouton */
+-webkit-border-radius: 2px; /*pour créer des bordures rondus (navigateur : Google Chrome et d’autres) */
+-moz-border-radius: 2px; /*pour créer des bordures rondus (navigateur : FireFox et d’autres) */
+border-radius: 8px; /*pour créer des bordures rondus (navigateur : La plupart) */
+-webkit-box-shadow: rgba(0,0,0,1) 0 1px 0; /*pour ajouter une ombre en dessous du bouton (navigateur : Google Chrome et d’autres) */
+-moz-box-shadow: rgba(0,0,0,1) 0 1px 0; /* pour ajouter une ombre en dessous du bouton (navigateur : Google Chrome et d’autres) */
+box-shadow: rgba(133,142,141,1) 0 2px 0; /* pour ajouter une ombre en dessous du bouton */
+text-shadow: rgba(0,0,0,.4) 0 1px 0; /* pour ajouter une ombre en dessous du bouton */
+color: white; /* la couleur */
+font-size: 12px; /* la taille du font */
+font-family: Georgia, serif; /* pour définir la police */
+text-decoration: none; /* pour enlever le souligné */
+vertical-align: middle; /* pour centrer le texte */
+background-image: radial-gradient(gray, black);/* Degrader */
+/*background-image:linear-gradient(white, black); /* Degrader haut/bas*/
+ 
+margin-left: 85%;
+}
+
+.MessageErreur{
+	color: red;	
+	margin-left: 40%;	
+}
+
+.mauvais {
+  color:#cc0000;
+}
+
+/*Pour l'auto complétion*/
+.autocomplete-suggestions { border: 1px solid #999; background: #FFF; overflow: auto; }
+.autocomplete-suggestion { padding: 2px 5px; white-space: nowrap; overflow: hidden; }
+.autocomplete-selected { background: #F0F0F0; }
+.autocomplete-suggestions strong { font-weight: normal; color: #3399FF; }
+
+.Entete{
+	color: blue;
+}
