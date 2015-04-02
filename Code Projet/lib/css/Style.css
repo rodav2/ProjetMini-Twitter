@@ -1,0 +1,169 @@
+/*AUTEUR: Guerry David
+DATE DE DEBUT: 13-12-2014
+PROJET LicencePro twitter*/
+
+body{
+	background-color: #336692;
+}
+header{
+	background-color: silver;
+	width: 100%;
+	position: relative;
+}
+.container{
+	box-shadow: 10px 10px 5px #000; /* propriété CSS3 : largeur de l'ombre, hauteur de l'ombre, largeur de l'effet de flou, couleur*/	
+}
+/*************************************************************CONNEXION / INSCRIPTION**************************************************/
+.connexion{
+	background-color: silver;
+	margin-left: 30%;
+	border: 2px gray dashed;
+	border-radius: 10px;
+	padding: 10px;
+	position: absolute;
+	top : 20%;
+}
+.inscription{
+	background-color: silver;
+	margin-left: 30%;
+	border: 2px gray dashed;
+	border-radius: 10px;
+	padding: 10px;
+	position: absolute;
+	top : 20%;
+}
+/*****************************************************************PARTIE MESSAGE******************************************************/
+.ZoneMessage{
+	resize: none; 
+	overflow: auto;
+}
+.MessageEnvoye{
+	left: 450px;
+	top: 330px;
+	position: absolute;
+	text-align: center;
+	border: 1px black solid;
+	background-color: silver;
+	border-radius: 10px;
+	padding: 10px;
+}
+.MessageAbonne{
+	left: 450px;
+	top: 100px;
+	position: absolute;
+	text-align: center;
+	border: 1px black solid;
+	background-color: silver;
+	border-radius: 10px;
+	padding: 10px;	
+	font-size: 12px;
+}
+.Entete{
+	color: blue;
+}
+.bouton{ 
+	border-top: 1px solid silver; /*pour ajouter une bordure en haut */
+	background: #279B8C; /*pour changer l’arrière plan */
+	padding: 6px 12px; /*pour ajouter un espace intérieur dans le bouton */
+	-webkit-border-radius: 2px; /*pour créer des bordures rondus */
+	-moz-border-radius: 2px; /*pour créer des bordures rondus */
+	border-radius: 8px; /*pour créer des bordures rondus (navigateur : La plupart) */
+	-webkit-box-shadow: rgba(0,0,0,1) 0 1px 0; /*pour ajouter une ombre en dessous du bouton */
+	-moz-box-shadow: rgba(0,0,0,1) 0 1px 0; /* pour ajouter une ombre en dessous du bouton  */
+	box-shadow: rgba(133,142,141,1) 0 2px 0; /* pour ajouter une ombre en dessous du bouton */
+	text-shadow: rgba(0,0,0,.4) 0 1px 0; /* pour ajouter une ombre en dessous du bouton */
+	color: white; 
+	font-size: 12px; 
+	font-family: Georgia, serif; 
+	text-decoration: none; /* pour enlever le souligné */
+	vertical-align: middle; /* pour centrer le texte */
+	background-image:radial-gradient(gray, black);/* Degrader */
+
+} 
+/*****************************************************************PARTIE UTILISATEUR***************************************************/
+.UtilisateurASuivre{
+	position: absolute;
+	width: 320px;
+	height: 200px;
+	top: 100px;
+	right: 70px;
+	text-align: center;
+	border: 1px black solid;
+	background-color: silver;
+	border-radius: 10px;
+	padding: 10px;
+}
+.UtilisateurSuivi{
+	position: absolute;
+	width: 320px;
+	height: 200px;
+	top: 400px;
+	right: 70px;
+	text-align: center;
+	border: 1px black solid;
+	background-color: silver;
+	border-radius: 10px;
+	padding: 10px;		
+}
+/*****************************************************************BARRE DU MENU********************************************************/
+.rafraichir{
+	position: absolute;
+	left: 200px;
+	top: 4px;
+	width: 50px;
+	height: 50px;
+}
+.boutonDeconnexion { 
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
+.boutonSupprimerCompte{
+	position: absolute;
+	left: 1300px;
+	top: 11px;
+	padding: 9px;
+	background: #999966;
+	border-color: black;
+	box-shadow: 2px 2px 3px #000; /* propriété CSS3 : largeur de l'ombre, hauteur de l'ombre, largeur de l'effet de flou, couleur*/	
+}
+.boutonSuivre{ 
+	position: absolute;
+	left: 1130px;
+	top: 11px;
+	padding: 9px;
+	background: #999966;
+	border-color: black;
+	box-shadow: 2px 2px 3px #000; /* propriété CSS3 : largeur de l'ombre, hauteur de l'ombre, largeur de l'effet de flou, couleur*/	
+}
+.boutonDesabonner{ 
+	position: absolute;
+	left: 1200px;
+	top: 11px;
+	padding: 9px;
+	background: #999966;
+	border-color: black;
+	box-shadow: 2px 2px 3px #000; /* propriété CSS3 : largeur de l'ombre, hauteur de l'ombre, largeur de l'effet de flou, couleur*/	
+}
+/*****************************************************************AUTRES***************************************************************/
+.Icone{
+	position: absolute;
+	width: 180px;
+	height: 180px;
+	top: 100px;
+	left: 100px;
+	border: 1px black solid;
+	background-color: silver;
+	border-radius: 10px;
+	box-shadow: 10px 10px 5px #000; /* propriété CSS3 : largeur de l'ombre, hauteur de l'ombre, largeur de l'effet de flou, couleur*/
+}
+.MessageErreur{
+	color: red;	
+	margin-left: 40%;	
+}
+.titre{
+	font-size: 20px;
+	color: #993300;
+}
+
+
