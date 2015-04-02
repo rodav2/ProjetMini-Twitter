@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8" />	
+	<title>Démo d'un compteur de mot et de caractere en jQuery</title>
+	
+ 	<!-- Feuille de style -->
+	<link rel="stylesheet" href="styleCompteur.css" />
+	
+	<!-- jQuery  -->
+	<script src="js/jquery-1.4.3.min.js"></script>
+	<script src="js/jquery-ui-1.8.5.min.js"></script>
+</head>
+<body>
+
+<script>
+$(document).ready(function(e) {
+
+  $('#message').keyup(function() {
+  
+    var nombreCaractere = $(this).val().length;
+    
+    var nombreMots = jQuery.trim($(this).val()).split(' ').length;
+    if($(this).val() === '') {
+     	nombreMots = 0;
+    }	
+    
+    var msg = ' ' + nombreMots + ' mot(s) | ' + nombreCaractere + ' Caractere(s) / 200';
+    $('#compteur').text(msg);
+    if (nombreCaractere > 200) { $('#compteur').addClass("mauvais"); } else { $('#compteur').removeClass("mauvais"); }
+    
+  })  
+  
+  
+  
+  $('#message2').keyup(function() {
+  
+    var nombreCaractere2 = $(this).val().length;
+    var nombreCaractere2 = 200 - nombreCaractere2;
+    
+    var nombreMots2 = jQuery.trim($(this).val()).split(' ').length;
+    if($(this).val() === '') {
+     	nombreMots2 = 0;
+    }	
+    
+    var msg2 = ' ' + nombreMots2 + ' mot(s) | ' + nombreCaractere2 + ' Caractere(s) restant';
+    $('#compteur2').text(msg2);
+    if (nombreCaractere2 < 1) { $('#compteur2').addClass("mauvais"); } else { $('#compteur2').removeClass("mauvais"); }
+    
+  })  
+  
+  
+  
+});
+</script>
+
+<h1>Démo d'un compteur de mot et de caractere en jQuery</h1>
+<h2><a href="#">Retour sur le tutoriel du 41Mag</a></h2>
+<form>
+  <textarea id="message" name="message" cols="120" rows="10"></textarea>
+  <p id="compteur">0 mots | 0 Caractere / 200</p>
+</form>
+
+<form style="margin-top:50px;border-top:1px solid #aaa; padding-top:50px;">
+  <textarea id="message2" name="message2" cols="120" rows="10"></textarea>
+  <p id="compteur2">0 mots | 200 Caracteres restant</p>
+</form>
+
+</body>
+</html>	
